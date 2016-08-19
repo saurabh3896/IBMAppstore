@@ -179,7 +179,7 @@
 			<div aria-hidden="true"><span>Welcome to IBM AppStore</span></div>
 		</div>
 
-    <h1 data-shadow='Welcome,User'>Welcome,User</h1>
+    <h1 data-shadow='Welcome,'${message}>Welcome, ${message}</h1>
 
     <div>
       <a href="<c:url value="http://localhost:8080/spring-security-ldap-embedded/logout" />" class="logout_button">Log Out !</a>
@@ -196,7 +196,7 @@
 
     <div class="list-type1">
       <ol>
-        <li><a href="#"><div id="replaceme"><span>Replace Me</span></div></a></li>
+        <li><a href="#"><div id="replaceme"><span>*File description here*</span></div></a></li>
       </ol>
     </div>
 

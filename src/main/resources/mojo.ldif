@@ -22,7 +22,7 @@ dn: cn=User,ou=groups,o=mojo
 objectClass: groupOfUniqueNames
 objectClass: top
 cn: User
-uniqueMember: cn=John Milton,ou=users,o=mojo
+uniqueMember: cn=User user,ou=users,o=mojo
 uniqueMember: cn=Robert Browning,ou=users,o=mojo
 uniqueMember: cn=Hugo Williams,ou=users,o=mojo
 uniqueMember: cn=John Keats,ou=users,o=mojo
@@ -64,12 +64,12 @@ sn: Williams
 uid: hwilliams
 userPassword:: cGFzcw==
 
-dn: cn=John Milton,ou=users,o=mojo
+dn: cn=User user,ou=users,o=mojo
 objectClass: organizationalPerson
 objectClass: person
 objectClass: inetOrgPerson
 objectClass: top
-cn: John Milton
-sn: Milton
-uid: jmilton
+cn: User user
+sn: user
+uid: ibm
 userPassword:: cGFzcw==
