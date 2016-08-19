@@ -1,6 +1,6 @@
 # IBM AppStore
 
-The project contains Utilities which can be used be user
+The project involves online portal for uploading files and generating reports on the basis of utility nature.
 
 ### Softwares and Dependencies
 
