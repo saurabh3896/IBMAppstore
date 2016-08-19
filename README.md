@@ -10,13 +10,13 @@ The project contains Utilities which can be used be user
 
 3.Spring security using embedded LDAP.
 
-1. Spring version :-3.0.5.RELEASE
+   3.1. Spring version : 3.0.5.RELEASE
 
-2. Spring security version : 3.0.5.RELEASE
+   3.2. Spring security version : 3.0.5.RELEASE
 
 4.Database : CochDB, Framwork provided by Ektorp(version : 1.2.2)
 
-5.JDK version : 1.8.0_91
+5.JDK version : 1.8
 
 6.Test Dependencies : mockito-all-1.8.5.jar
 
@@ -28,24 +28,24 @@ The project contains Utilities which can be used be user
 1.Host address : 'localhost:8080' , (port can be specified)
 
 2.Login with your username and password (passwords and usernames are defined in an LDIF file with root = mojo , which can 
-   be changed to IBM Bluepages.)
+  be changed to IBM Bluepages.)
    
-3.On the homepage you will see all the utilities and the input files they take as input.
+3.On the homepage the user will see all the utilities and the input files they take as input.
 
-4.Hover over the utility you want to use and a Choose File button and descripion of the utility will appear.
+4.Hover over the utility the user want to use and a Choose File button and descripion of the utility will appear.
 
 5.Click Choose File and select files to upload.
 
 6.Uploaded file's name will appear at the top beside Upload button.
 
-7.Click Upload to upload the file or Reset to reset the file, you'll get confirmation message accroding to your choice.
+7.Click Upload to upload the file or Reset to reset the file, the user get confirmation message accroding to user's choice.
 
-8.After report is ready you will get a download link to download, it will be a .zip file containing all the reports
+8.After Report is ready you will get a download link to download, it will be a .zip file containing all the reports.
 
 
 ## File locations
 
-1.All JSP files are in Web Pages/WEB-INF/jps
+1.All JSP files are in Web Pages/WEB-INF/jsp
 
 2.All CSS and JS files are in Web Pages/resources/static
 
@@ -53,11 +53,11 @@ The project contains Utilities which can be used be user
 ### How to Run
 1.Open the project in IDE (NetBeans or Eclipse).
 
-2.Set server to Tomcat.
+2.Set server to Apache Tomcat.
 
-3.Build the package.
+3.Build the project.
 
-4.Deploy the package.
+4.Deploy (or run).
 
 
 ## Authors
@@ -67,6 +67,6 @@ The project contains Utilities which can be used be user
 
 ## Acknowledgments
 
-* **Manjit S.Sodhi** - *Project manager@ IBM*
+* **Manjit S.Sodhi**(*Project Manager @ IBM*)
 * **Sanket Patil** 
 
