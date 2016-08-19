@@ -28,7 +28,7 @@ public class UploadController{
 	
     @RequestMapping
     public String form(){
-        return "form";
+        return "welcome_page";
     }
 	
     @RequestMapping(value="/message", method=RequestMethod.POST)
