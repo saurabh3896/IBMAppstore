@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Agency;
+   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/agency-fb-bold.woff);
+}
+
+#marquee {
+  margin-top: -40rem;
+  margin-left: -40rem;
+	perspective: 500px;
+	font-size: 0;
+	font-family: Agency, sans-serif;
+}
+#marquee div {
+	display: inline-block;
+	height: 5rem;
+	width: 30rem;
+	position: relative;
+}
+#marquee div:first-of-type {
+	background: #e5233e;
+	transform-origin: top right;
+	transform: rotateY(-30deg);
+	color: #fff;
+}
+#marquee div:last-of-type {
+	background: #b31e31;
+	transform-origin: top left;
+	transform: rotateY(45deg);
+	color: #f8c9d9;
+}
+#marquee div {
+	font-size: 3rem;
+	overflow: hidden;
+}
+#marquee div span {
+	position: absolute;
+	width: 300%;
+	line-height: 1.4;
+}
+@keyframes leftcrawl {
+	to { transform: translateX(-100rem); }
+}
+@keyframes rightcrawl {
+	to { transform: translateX(-130rem); }
+}
+#marquee div:first-of-type span {
+	transform: translateX(60rem);
+	animation: leftcrawl 14s linear infinite;
+	text-shadow: 4px 0px 4px rgba(0,0,0,0.3);
+}
+#marquee div:last-of-type span {
+	transform: translateX(30rem);
+	animation: rightcrawl 14s linear infinite;
+}
+
+@media all and (max-width: 993px) {
+  #marquee {
+    perspective: none;
+  }
+  #marquee div:last-of-type {
+    opacity: 0;
+    height: 0;
+  }
+  #marquee div:first-of-type {
+    width: 80%;
+  }
+}

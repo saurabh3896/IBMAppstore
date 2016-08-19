@@ -31,7 +31,7 @@
 	<couchdb:database id="blogPostDatabase" name="blogPosts" url="http://localhost:5984"/>
         
         <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
-        p:maxUploadSize="1000000"/>
+        p:maxUploadSize="1000000000"/>
         
         <import resource="trace-context.xml"/>
         

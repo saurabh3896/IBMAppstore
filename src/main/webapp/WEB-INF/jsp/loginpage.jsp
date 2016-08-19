@@ -13,7 +13,7 @@
 	
 	<!-- ================== BEGIN BASE CSS STYLE ================== -->
         <!-- <link href="<c:url value='/static/css/bootstrap.css' />"  rel="stylesheet"/></link> -->
-        
+        <link rel="shortcut icon" href='<c:url value="/resources/img/favicon.ico"/>'/>
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"></link>
         <link href="<c:url value='/resources/plugins/jquery-ui.min.css' />" rel="stylesheet" /></link>
         <link href="<c:url value='/resources/plugins/bootstrap.min.css' />" rel="stylesheet" /></link>

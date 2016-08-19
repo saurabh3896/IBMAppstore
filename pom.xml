@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.krams.tutorial</groupId>
+  <groupId>org.ibm.appstore</groupId>
   <artifactId>spring-security-ldap-embedded</artifactId>
   <packaging>war</packaging>
   <version>1.0.0-SNAPSHOT</version>
@@ -22,6 +22,11 @@
   </properties>
   
   <dependencies>
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>3.9</version>
+    </dependency>
     <dependency>
 	<groupId>org.ektorp</groupId>
 	<artifactId>org.ektorp</artifactId>
@@ -215,12 +220,6 @@
     	<scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.lightcouch</groupId>
-      <artifactId>lightcouch</artifactId>
-      <version>0.1.9-SNAPSHOT</version>
-      <type>jar</type>
-    </dependency>
-    <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>jstl</artifactId>
         <version>${javax.jstl-taglibs.version}</version>
@@ -229,6 +228,12 @@
         <groupId>taglibs</groupId>
         <artifactId>standard</artifactId>
         <version>${javax.jstl-taglibs.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.jexcelapi</groupId>
+      <artifactId>jxl</artifactId>
+      <version>2.6.12</version>
+      <type>jar</type>
     </dependency>
   </dependencies>
   
@@ -240,8 +245,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.3.2</version>
         <configuration>
-          <source>1.5</source>
-          <target>1.5</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
     </plugins>    
