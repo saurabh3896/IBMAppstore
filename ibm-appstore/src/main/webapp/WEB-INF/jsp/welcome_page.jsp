@@ -149,8 +149,9 @@
       $('#msgbox').dialog({
         title: title,
         modal: true,
-        buttons: {"Ok": function(){
+        buttons: {"Download Reports": function(){
           //<a href="<c:url value='/download/internal' />">Download This File (located inside project)</a>
+          window.location.href="http://www.google.com";
           $(this).dialog("close");}
         }
       });
@@ -181,11 +182,11 @@
 
     <h1 data-shadow='Welcome,'${message}>Welcome, ${message}</h1>
 
-    <div>
+    <div style="margin-top:-70px;">
       <a href="<c:url value="http://localhost:8080/spring-security-ldap-embedded/logout" />" class="logout_button">Log Out !</a>
     </div>
 
-		<div id="go" class="checkBox" style="margin-left:150px;margin-top:50px; width:140px">
+		<div id="go" class="checkBox" style="margin-left:150px;margin-top:60px; width:140px">
   			Upload File
   			<svg width="140" height="65" viewBox="0 0 140 65" xmlns="http://www.w3.org/2000/svg">
     			<rect x="11" class="button" width="128.8" height="63.9"/>
@@ -200,7 +201,7 @@
       </ol>
     </div>
 
-		<div id="reset" class="checkBox" style="margin-left:1050px;margin-top:-110px; width:140px">
+		<div id="reset" class="checkBox" style="margin-left:1050px;margin-top:-120px; width:140px">
   			Reset File
   			<svg width="140" height="65" viewBox="0 0 140 65" xmlns="http://www.w3.org/2000/svg">
     			<rect x="10" class="button" width="128.8" height="63.9"/>
