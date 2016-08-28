@@ -14,7 +14,7 @@ The project involves online portal for uploading files and generating reports on
 
    3.2. Spring security version : 3.0.5.RELEASE
 
-4. Database : CochDB, Framwork provided by Ektorp(version : 1.2.2)
+4. Database : CouchDB, Framwork provided by Ektorp(version : 1.2.2)
 
 5. JDK version : 1.8
 
@@ -41,6 +41,11 @@ The project involves online portal for uploading files and generating reports on
 7. Click Upload to upload the file or Reset to reset the file, the user get confirmation message accroding to user's          choice.
 
 8. After Report is ready you will get a download link to download, it will be a .zip file containing all the reports.
+
+
+## Database
+
+We are using Ektorp framework, in order to create documents and push it into the CouchDB database, in order to access the current documents, make sure you have CouchDB installed and running, go to localhost:5984/_utils in your browser, which shows the current documents.
 
 
 ## File locations
