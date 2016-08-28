@@ -23,7 +23,7 @@ The project involves online portal for uploading files and generating reports on
 7. Maven 3
 
 
-### Getting Started
+## Getting Started
 
 1. Host address : 'localhost:8080' , (port can be specified)
 
@@ -55,7 +55,7 @@ We are using Ektorp framework, in order to create documents and push it into the
 2. All CSS and JS files are in Web Pages/resources/static
 
 
-### How to Run
+## How to Run
 1. Open the project in IDE (NetBeans or Eclipse).
 
 2. Set server to Apache Tomcat.
